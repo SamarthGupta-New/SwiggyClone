@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "d:/React 25/Feb 25/swiggy/src/assets/logo.png";
-import one from "d:/React 25/Feb 25/swiggy/src/assets/signin.ico";
+import logo from "../assets/logo.png";
+import one from "../assets/signin.ico";
 import { IoChevronDownOutline } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
 import { useState, useRef } from "react";

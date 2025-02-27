@@ -1,7 +1,7 @@
 import React from "react";
-import playstore from "d:/React 25/Feb 25/swiggy/src/assets/play_store.avif";
-import appstore from "d:/React 25/Feb 25/swiggy/src/assets/app_store.avif";
-import swiggyfull from "d:/React 25/Feb 25/swiggy/src/assets/full.png";
+import playstore from "../assets/play_store.avif";
+import appstore from "../assets/app_store.avif";
+import swiggyfull from "../assets/full.png";
 import { FaAngleDown } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
