@@ -1,5 +1,4 @@
 import React from "react";
-import img1 from "d:/React 25/Feb 25/swiggy/public/images/2b4f62d606d1b2bfba9ba9e5386fabb7.jpeg";
 import { MdStars } from "react-icons/md";
 
 const Card = (props) => {
