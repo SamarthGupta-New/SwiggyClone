@@ -12,7 +12,7 @@ const Online = () => {
               Restaurant with online food delivery in Bhopal
             </div>
           </div>
-          <div className=" gap-1 grid-cols-2 md:grid-cols-3 grid lg:grid-cols-4 lg:gap-2">
+          <div className=" gap-1  justify-center sm:grid-cols-1 md:grid-cols-3 grid lg:grid-cols-4 lg:gap-2">
             {imageData2.map((d, i) => {
               return <Card {...d} key={i} />;
             })}

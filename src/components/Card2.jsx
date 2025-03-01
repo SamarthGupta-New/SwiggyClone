@@ -4,8 +4,8 @@ import { MdStars } from "react-icons/md";
 const Card = (props) => {
   return (
     <>
-      <div className="w-[273px] shrink-0 grow transition-transform duration-300 ease-in-out hover:scale-95">
-        <div className="h-[182px] relative rounded-[15px] overflow-hidden">
+      <div className="w-[273px]  shrink-0 grow transition-transform duration-300 ease-in-out hover:scale-95">
+        <div className="h-[182px]  relative rounded-[15px] overflow-hidden">
           <img
             className="object-cover w-full h-full"
             src={props.image}

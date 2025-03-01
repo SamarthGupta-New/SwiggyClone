@@ -9,6 +9,7 @@ import { BiSolidOffer } from "react-icons/bi";
 import { IoHelpBuoyOutline } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa6";
 import { BiBowlHot } from "react-icons/bi";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   const showSideMenu = () => {
@@ -144,15 +145,15 @@ const Header = () => {
         {/* sign in  */}
       </div>
       <header className="p-3 shadow-2xl">
-        <div className="max-w-[1200px] mx-auto flex items-center">
-          <div className=" w-[90px]  ">
+        <div className="max-w-[1200px] justify-between  mx-auto flex sm:items-center">
+          <div className=" w-[90px]">
             <img
               className="w-full transition-transform duration-300 ease-in-out hover:scale-110"
               src={logo}
               alt="swiggy logo"
             />
           </div>
-          <div className="flex">
+          <div className=" hidden  sm:flex">
             <p className="">
               <span className="  font-bold border-b-[3px] border-black hover:text-orange-500">
                 Other
@@ -164,7 +165,10 @@ const Header = () => {
               />
             </p>
           </div>
-          <nav className="list-none gap-8 ml-auto font-semibold flex items-center">
+          <div>
+            <RxHamburgerMenu className="sm:hidden mt-4 w-5 h-5" />
+          </div>
+          <nav className=" hidden list-none gap-8 ml-auto font-semibold sm:flex items-center">
             <li className="flex items-center gap-2 hover:text-orange-500 ">
               <IoIosSearch className="w-6 h-6" />
               Search
